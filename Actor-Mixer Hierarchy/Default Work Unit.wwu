@@ -36,6 +36,11 @@
 				</Sound>
 				<Sound Name="TOM_01" ID="{F8435E13-AB9F-4083-89F2-EF97C4AC8A6A}" ShortID="577073725">
 					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>66</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Pitch" Type="int32">
 							<ValueList>
 								<Value>1290</Value>
