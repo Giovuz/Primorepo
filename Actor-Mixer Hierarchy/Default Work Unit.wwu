@@ -4,6 +4,18 @@
 		<WorkUnit Name="Default Work Unit" ID="{D1E45D4D-DF35-416F-9FD3-B10FCA3A2D25}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="TOM" ID="{445A04B9-14F9-4580-86F6-A9D9E529BBC0}" ShortID="665355285">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>1290</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A9D0D75-FFBB-4778-8845-DB046ECC56D8}"/>
